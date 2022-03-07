@@ -13,8 +13,8 @@ function read(text){
 var speech = new SpeechSynthesisUtterance();
 // console.log(speech);
 speech.text = text;
-if(text =="hello"){
-speech.text="bye";
+if(text =="alexa"){
+speech.text="how can i help you buddy";
 }
 else if (text=="what is your name"){
     speech.text=" my name is pandda,i am your buddy";
